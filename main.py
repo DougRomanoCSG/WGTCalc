@@ -100,6 +100,7 @@ def calculate_adjusted_shot(base_distance, elevation, wind_speed, wind_angle_deg
     # Wind adjustment (positive for tailwind, negative for headwind)
     wind_adjustment = effective_wind_speed * wind_factor
 
+
     # Calculate final adjusted distance
     adjusted_distance = base_distance + elevation_adjustment + wind_adjustment
 
